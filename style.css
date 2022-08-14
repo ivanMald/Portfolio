@@ -29,7 +29,12 @@ body{
 }
 @media  (max-width: 556px) {
     .tituloUno {
-        font-size: 40px;
+        font-size: 65px;
+    }
+}
+@media  (max-width: 376px) {
+    .tituloUno {
+        font-size: 50px;
     }
 }
 span{
@@ -245,7 +250,7 @@ h2{
 @media  (max-width: 765px) {
     .pCorreo{
         font-size: 13px;
-        margin-left: 10px;
+        text-align: center;
     }
 }
 
