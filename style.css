@@ -126,7 +126,11 @@ h2{
     color: #fff;
     text-align: center;
 }
-
+@media (max-width: 556px){
+    h2{
+    font-size: 20px;
+    }
+}
 .card {
     width: 240px;
     height: 220px;
