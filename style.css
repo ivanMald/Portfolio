@@ -159,6 +159,20 @@ h2{
     overflow: visible;
 }
 
+.card2 {
+    width: 240px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: #2A0944;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+}
+
 .card-details {
     color: black;
     height: 100%;
@@ -184,6 +198,7 @@ h2{
 }
 
 .text-body {
+    padding: 5px;
     color: rgb(134, 134, 134);
     background-color: #212121cb;
     border-radius: .5rem;
@@ -211,6 +226,15 @@ h2{
 }
 
 .card1:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+.card2:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card2:hover .card-button {
     transform: translate(-50%, 50%);
     opacity: 1;
 }
