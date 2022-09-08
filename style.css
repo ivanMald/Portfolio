@@ -201,6 +201,19 @@ h2{
     transition: 0.5s ease-out;
     overflow: visible;
 }
+.card5 {
+    width: 240px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: #0fef1a;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+}
 
 .card-details {
     color: black;
@@ -285,6 +298,14 @@ h2{
     opacity: 1;
 }
 .card4:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+.card5:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+.card5:hover {
     border-color: #008bf8;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
 }
